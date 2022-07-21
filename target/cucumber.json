@@ -1,0 +1,232 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 90486666,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Techfios automation project testing page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_Techfios_automation_project_testing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17083,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "StepDefinition.set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9541,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Set White Background button exists",
+            "match": {
+              "location": "StepDefinition.set_White_Background_button_exists()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4146985458,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "1 User should be able to change bakground color to sky blue",
+        "description": "",
+        "id": "background-color-change-functionality;1-user-should-be-able-to-change-bakground-color-to-sky-blue",
+        "after": [
+          {
+            "result": {
+              "duration": 175775042,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 241563458,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on the: Set SkyBlue Background button",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_the_Set_SkyBlue_Background_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 475903917,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The background color will change to sky blue",
+            "match": {
+              "location": "StepDefinition.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 32417,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Techfios automation project testing page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_Techfios_automation_project_testing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14042,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "StepDefinition.set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8917,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Set White Background button exists",
+            "match": {
+              "location": "StepDefinition.set_White_Background_button_exists()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2460576458,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "2 User should be able to change bakground color to white",
+        "description": "",
+        "id": "background-color-change-functionality;2-user-should-be-able-to-change-bakground-color-to-white",
+        "after": [
+          {
+            "result": {
+              "duration": 164994000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 200513208,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on the: Set White Background button",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_the_Set_White_Background_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 466790625,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The background color will change to white",
+            "match": {
+              "location": "StepDefinition.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Background color change functionality",
+    "description": "",
+    "id": "background-color-change-functionality",
+    "keyword": "Feature",
+    "uri": "features/BackgroundColor.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@tagFinal"
+      }
+    ]
+  }
+]
